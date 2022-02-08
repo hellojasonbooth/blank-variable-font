@@ -6,20 +6,23 @@
 
 @font-face {
     font-family: Blank;
+    font-weight: 100;
     src: url(assets/fonts/c1ae4cdb4dd6808d.woff2);
+    font-style: normal;
+    font-weight: 100 900;
 }
 
 html,
 body
 {
     font-family: Blank;
-    /* font-variation-settings: "wght" 100; */
-    overflow: hidden;
+    font-variation-settings: "wght" 100;
 }
 
 body {
     display: flex;
     height: 100vh;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
     line-height: 1;
@@ -28,6 +31,8 @@ body {
 h1 {
     font-size: 100px;
     text-transform: uppercase;
+    text-align: center;
+    width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map*/
