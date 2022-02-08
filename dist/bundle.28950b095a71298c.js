@@ -1,0 +1,2 @@
+(()=>{"use strict";const t=document.querySelector("h1");let e=0;window.addEventListener("mousemove",(n=>{e=100+n.clientX/window.innerWidth*800,t.style.fontVariationSettings=`"wght" ${e}`}))})();
+//# sourceMappingURL=bundle.28950b095a71298c.js.map
